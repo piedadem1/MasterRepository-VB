@@ -1,4 +1,4 @@
-'Print out all members function for _dayone
+'Print out all members function for printall button on all sheets
 Sub ButtonPrintall_Click()
 Dim R As Range
     For Each R In Sheets("_members").Range("A2:A35")
@@ -8,7 +8,7 @@ Dim R As Range
             End If
         Next
 End Sub
-'Print preview for the seleted sheet for _dayone
+'Print preview for the seleted sheet for printing
 Sub ButtonPreview_Click()
         ActiveSheet.PrintOut preview:=True
 End Sub
