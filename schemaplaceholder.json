@@ -274,9 +274,7 @@
             "excludeFromPunctuationCheck": {
               "type": "array",
               "description": "Specifies the top-level tags within XML documentation that will be excluded from punctuation analysis.",
-              "default": [
-                "seealso"
-              ]
+              "default": "see also"
             }
           }
         }
