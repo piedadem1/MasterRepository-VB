@@ -5,7 +5,7 @@ Dim destRow As Long, nmRow As Long, dCount As Long, iTwo As Long
 Dim outRow As Long, delRow As Long
 Dim Member As New MemberDS, delMember As New DMember
 
-'Call to row numbers code in the RowCounter file
+        'Call to numbers of rows code in the RowCounter file
 Call CountRows(nmRow)
 
 'Turns off the workbooks ability to update the screen till this is changes to true/end of process
